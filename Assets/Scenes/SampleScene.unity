@@ -744,6 +744,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b7c8d6ac6984e447b0339249024c9a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  image: {fileID: 951663348}
+  flashSpeed: 0.5
 --- !u!114 &951663348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1214,6 +1216,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 501295248943222296, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1360427142}
+    - targetCorrespondingSourceObject: {fileID: 501295248943222296, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1360427143}
   m_SourcePrefab: {fileID: 100100000, guid: d6a5e2c4aefa6804b8f7d2af9a9676b5, type: 3}
 --- !u!1 &1360427141 stripped
 GameObject:
@@ -1241,6 +1246,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &1360427143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360427141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b38ef9d5602f6c44af37ec6a6bbe2cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 5
+  damageRate: 1
 --- !u!1 &1457077773
 GameObject:
   m_ObjectHideFlags: 0
